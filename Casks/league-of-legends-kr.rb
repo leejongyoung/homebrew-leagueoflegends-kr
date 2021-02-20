@@ -1,8 +1,8 @@
 cask "league-of-legends-kr" do
   version :latest
-  sha256 :no_check
+  sha256 "f2626782da1031d5baca48f38f602096c5af227e58dbb91ed9d3257af0018a64"
 
-  url "https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.kr.zip",
+  url "https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.kr.zip"
   name "League of Legends"
   homepage "https://na.leagueoflegends.com/ko-kr/"
 
@@ -17,6 +17,7 @@ cask "league-of-legends-kr" do
     "~/Library/Preferences/com.riotgames.LeagueofLegends.LeagueClientUxHelper.plist",
     "~/Library/Caches/com.riotgames.LeagueofLegends.LeagueClient",
     "/Users/Shared/Riot Games",
+    "/Applications/League of Legends.app",
   ],
       rmdir: [
         "~/Documents/League of Legends",
